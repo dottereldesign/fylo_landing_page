@@ -1,17 +1,23 @@
 :root {
-    ### Primary
-    - Very Dark Blue: hsl(243, 87%, 12%)
-- Desaturated Blue: hsl(238, 22%, 44%)
+  --clr-primary-100: hsl(243, 87%, 12%);
+  --clr-primary-200: hsl(238, 22%, 44%);
 
-### Accent
+  --clr-accent-100: hsl(224, 93%, 58%);
+  --clr-accent-200: hsl(170, 45%, 43%);
 
-- Bright Blue: hsl(224, 93%, 58%)
-- Moderate Cyan: hsl(170, 45%, 43%)
+  --clr-neutral-100: hsl(240, 75%, 98%);
+  --clr-neutral-200: hsl(0, 0%, 75%);
 
-### Neutral
+  --ff-primary-100: "Raleway", sans-serif;
+  --ff-primary-200: "Open Sans", sans-serif;
 
-- Light Grayish Blue: hsl(240, 75%, 98%)
-- Light Gray: hsl(0, 0%, 75%)
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --fs-small: ;
+  --fs-medium: ;
+  --fs-large: ;
+  --fs-x-large: ;
 }
 
 * {
@@ -19,15 +25,3 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-
-
-### Headings, Call-to-actions, Header Navigation
-
-- Family: [Raleway](https://fonts.google.com/specimen/Raleway)
-- Weights: 400, 700
-
-### Body
-
-- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400
