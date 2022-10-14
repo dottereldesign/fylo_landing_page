@@ -135,7 +135,7 @@ main button,
 }
 
 input {
-  width: calc(375px - 2em);
+  width: calc(375px - 2.4em);
   height: 40px;
   padding-left: 1em;
   margin-top: 2em;
@@ -227,6 +227,28 @@ section.productive {
   height: 24px;
   border-radius: 50%;
   margin-right: 0.5em;
+}
+
+.productive__cta-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.productive__cta-wrapper img {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.productive__cta {
+  color: var(--clr-accent-200);
+  font-family: var(--ff-primary-100);
+  font-size: var(--fs-small);
+  font-weight: var(--fw-regular);
+  display: inline-block;
+  border-bottom: 1px solid var(--clr-accent-200);
+  padding-bottom: 2px;
+  margin-top: 2em;
 }
 
 /* section - earlyacess */
