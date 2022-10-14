@@ -49,6 +49,14 @@ h2 {
   font-weight: var(--fw-bold);
 }
 
+h3 {
+  color: var(--clr-primary-100);
+  font-family: var(--ff-primary-100);
+  font-size: var(--fs-x-small);
+  font-weight: var(--fw-bold);
+  text-align: left;
+}
+
 p {
   color: var(--clr-primary-100);
   font-family: var(--ff-primary-200);
@@ -111,7 +119,8 @@ section p {
   text-align: center;
 }
 
-main button {
+main button,
+.earlyaccess button {
   background-color: var(--clr-accent-100);
   color: var(--clr-neutral-100);
   width: calc(375px - 2em);
@@ -130,7 +139,7 @@ main button {
   display: block;
 }
 
-/* section */
+/* section - productive */
 section {
   background-color: var(--clr-neutral-100);
 }
@@ -145,4 +154,85 @@ section.productive {
   margin-top: 1.5em;
   width: 304px;
   height: auto;
+}
+
+.productive > h2 {
+  margin-top: 5.5em;
+}
+
+.productive__card {
+  width: 300px;
+  background-color: white;
+  padding: 1em;
+  margin-top: 2.5em;
+}
+
+.productive__card h3,
+.productive__card p,
+.productive__card img {
+  margin: 0;
+  padding: 0;
+}
+
+.productive__card > p {
+  text-align: left;
+  font-size: var(--fs-small);
+}
+
+.productive__card--body {
+  padding: 0;
+  margin: 0;
+}
+
+.productive__card-container {
+  display: flex;
+}
+
+.productive__card-wrapper p {
+  color: var(--clr-primary-100);
+  font-family: var(--ff-primary-100);
+  font-size: var(--fs-x-small);
+  font-weight: var(--fw-regular);
+  text-align: left;
+}
+
+.productive__card img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
+.productive__card-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+/* section - earlyacess */
+section.earlyaccess {
+  background-color: var(--clr-primary-200);
+  padding: 0 1em 0 1em;
+}
+
+.earlyaccess h2 {
+  margin: 0;
+  padding-top: 3em;
+}
+
+.earlyaccess h2,
+.earlyaccess p {
+  color: var(--clr-neutral-100);
+}
+
+.earlyaccess button {
+  margin-bottom: 3em;
+}
+
+/* footer */
+footer {
+  background-color: var(--clr-primary-100);
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-primary-200);
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-regular);
 }
