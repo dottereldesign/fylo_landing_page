@@ -1,3 +1,4 @@
+/* Custom Properties < 50em */
 :root {
   --clr-primary-100: hsl(243, 87%, 12%);
   --clr-primary-200: hsl(238, 22%, 44%);
@@ -14,14 +15,43 @@
   --fw-regular: 400;
   --fw-bold: 700;
 
-  --fs-small: ;
-  --fs-medium: ;
-  --fs-large: ;
-  --fs-x-large: ;
+  --fs-x-small: 0.75rem;
+  --fs-small: 0.875rem;
+  --fs-medium: 1rem;
+  --fs-large: 1.125rem;
+  --fs-x-large: 1.5rem;
+}
+
+/* Custom Properties > 50em */
+@media (min-width: 50em) {
+  :root {
+  }
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+/* Utility Classes */
+h1 {
+  color: var(--clr-primary-100);
+  font-family: var(--ff-primary-200);
+  font-size: var(--fs-x-large);
+  font-weight: var(--fw-bold);
+}
+
+h2 {
+  color: var(--clr-primary-100);
+  font-family: var(--ff-primary-100);
+  font-size: var(--fs-large);
+  font-weight: var(--fw-bold);
+}
+
+p {
+  color: var(--clr-primary-100);
+  font-family: var(--ff-primary-200);
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-regular);
 }
