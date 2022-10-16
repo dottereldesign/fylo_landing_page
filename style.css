@@ -161,6 +161,13 @@ input {
     margin-top: 1.5em;
     text-align: left;
   }
+
+  main img {
+    margin-top: 1em;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
 }
 
 /* seperator */
