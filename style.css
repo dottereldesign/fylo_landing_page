@@ -104,7 +104,8 @@ main {
 
 main img {
   margin-top: 4.5em;
-  width: 304px;
+  width: 100%;
+  max-width: 500px;
   height: auto;
 }
 
@@ -139,6 +140,27 @@ input {
   height: 40px;
   padding-left: 1em;
   margin-top: 2em;
+}
+
+@media (min-width: 50em) {
+  .grid-col-2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  picture {
+    order: 2;
+  }
+
+  main h1 {
+    margin-top: 2em;
+    text-align: left;
+  }
+
+  main p {
+    margin-top: 1.5em;
+    text-align: left;
+  }
 }
 
 /* seperator */
