@@ -339,6 +339,23 @@ section.earlyaccess {
   margin-bottom: 3em;
 }
 
+@media (min-width: 50em) {
+  .earlyaccess__gutters {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 5em 0 5em 0;
+  }
+
+  .grid-col-2-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .earlyaccess h2 {
+    padding: 0;
+  }
+}
+
 /* footer */
 footer {
   background-color: var(--clr-primary-100);
