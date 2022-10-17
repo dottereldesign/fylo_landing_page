@@ -47,7 +47,11 @@
     </div>
   </main>
 
-  <img class="seperator" src="images/bg-curve-mobile.svg" alt="">
+  <picture>
+    <source media="(max-width: 799px)" srcset="images/bg-curve-mobile.svg" />
+    <source media="(min-width: 800px)" srcset="images/bg-curve-desktop.svg" />
+    <img class="seperator" src="images/bg-curve-mobile.svg" alt="">
+  </picture>
 
   <section class="productive">
     <div class="col-2-prod">
