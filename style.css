@@ -74,6 +74,14 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  opacity: 75%;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* nav */
 header {
   max-width: 1440px;
@@ -128,13 +136,13 @@ main img {
 main h1,
 section h2 {
   margin-top: 2em;
-  text-align: center;
+  text-align: left;
 }
 
 main p,
 section p {
   margin-top: 1.5em;
-  text-align: center;
+  text-align: left;
 }
 
 main button,
@@ -336,13 +344,21 @@ section.productive {
   }
 
   section h2 {
-    margin-top: 2em;
+    margin-top: 0em;
     text-align: left;
   }
 
   section p {
     margin-top: 1.5em;
     text-align: left;
+  }
+
+  .productive img {
+    margin-top: 0em;
+  }
+
+  .col-2-prod {
+    margin-top: 4em;
   }
 }
 
